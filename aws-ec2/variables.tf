@@ -1,7 +1,7 @@
 variable "aws_region" {
   description = "AWS region to deploy to"
   type        = string
-  default     = "eu-north-1"
+  default     = "ap-south-1"
 }
 
 variable "ec2_instance_type" {
