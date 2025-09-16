@@ -6,7 +6,7 @@ resource "random_id" "rand_id" {
   byte_length = 8
 }
 
-resource "aws_s3_bucket_public_access_block" "example" {
+resource "aws_s3_bucket_public_access_block" "mywebapp_bucket_public_access_block" {
   bucket = aws_s3_bucket.mywebapp_bucket.id
 
   block_public_acls       = false
